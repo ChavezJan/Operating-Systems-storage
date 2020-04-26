@@ -1,5 +1,5 @@
 def ReadFile():
-    ruta = "1.txt"
+    ruta = "File(Numbers).txt"
 
     file = open(ruta, 'r')
 
