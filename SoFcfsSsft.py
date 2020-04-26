@@ -1,4 +1,12 @@
-def ReadFile():
+def FileReader():
+    '''
+
+    here the file is selected and read while separating into an array and sent to the functions
+    - FSFC -> First Come First Served
+    - SSTF -> Shortest seek time first
+
+    '''
+
     ruta = "File(Numbers).txt"
 
     file = open(ruta, 'r')
@@ -10,6 +18,15 @@ def ReadFile():
 
 
 def FCFS(file):
+    '''
+
+    First Come First Served
+
+    :param file: are the numbers that are used to simulate the disks and cylinders of an HDD
+    :return: the movements that the memory reader makes
+
+    '''
+
     print("FCFS")
     print("First Come First Served")
 
@@ -33,6 +50,14 @@ def FCFS(file):
 
 
 def SSTF(file):
+    '''
+
+    Shortest seek time first
+
+    :param file: are the numbers that are used to simulate the disks and cylinders of an HDD
+    :return: the movements that the memory reader makes
+
+    '''
     print("SSTF")
     print("Shortest Seek Time First")
 
@@ -66,4 +91,7 @@ def SSTF(file):
 
 
 if __name__ == "__main__":
-    ReadFile()
+    '''
+    call the file reader
+    '''
+    FileReader()
