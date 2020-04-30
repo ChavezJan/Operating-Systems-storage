@@ -1,4 +1,5 @@
 def FileReader():
+
     '''
 
     here the file is selected and read while separating into an array and sent to the functions
@@ -18,6 +19,7 @@ def FileReader():
 
 
 def FCFS(file):
+
     '''
 
     First Come First Served
@@ -50,6 +52,7 @@ def FCFS(file):
 
 
 def SSTF(file):
+
     '''
 
     Shortest seek time first
@@ -58,6 +61,7 @@ def SSTF(file):
     :return: the movements that the memory reader makes
 
     '''
+
     print("SSTF")
     print("Shortest Seek Time First")
 
@@ -87,11 +91,13 @@ def SSTF(file):
         y = variable
         cont = 1000000
 
-    print("SSTF did", movements, "Movements")
+    print("SSTF did", movements, "Movements!")
 
 
 if __name__ == "__main__":
+
     '''
     call the file reader
     '''
+
     FileReader()
